@@ -87,7 +87,6 @@ export default {
     };
   },
   created() {
-    console.log('asd');
     // manual settings
     this.$store.commit("fm/settings/manualSettings", this.settings);
 
